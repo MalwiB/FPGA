@@ -1,0 +1,1036 @@
+/*
+
+Xilinx Vivado v2018.1_AR70908 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 13016
+License: Customer
+
+Current time: 	Sun Apr 21 17:21:09 CEST 2019
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 187 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Malwi
+User home directory: C:/Users/Malwi
+User working directory: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/patches/AR70908_vivado_2018_1_preliminary_rev5/vivado/data;C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/Malwi/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/Malwi/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/Malwi/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/vivado.log
+Vivado journal file location: 	C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/vivado.jou
+Engine tmp dir: 	C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/.Xil/Vivado-13016-DESKTOP-I5G3QUH
+
+GUI allocated memory:	201 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 529 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 62 MB (+62325kb) [00:00:17]
+// [Engine Memory]: 529 MB (+403057kb) [00:00:17]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Malwi\Dropbox\PROGR\fpga\Kalkulator\Kalkulator\Kalkulator.xpr. Version: Vivado v2018.1_AR70908 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 34 MB. Current time: 4/21/19 5:21:11 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 558 MB (+3298kb) [00:00:28]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 595 MB (+8889kb) [00:00:32]
+// Project name: Kalkulator; location: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 826.047 ; gain = 73.836 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 635 MB (+10637kb) [00:00:42]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 644 MB. GUI used memory: 37 MB. Current time: 4/21/19 5:21:36 PM CEST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAPropertyPanels.initPanels (kalkulator.vhd) elapsed time: 0.3s
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display(Behavioral) (display.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 67 MB (+2289kb) [00:01:18]
+// Elapsed time: 33 seconds
+selectCodeEditor("kalkulator.vhd", 399, 60); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 14, 43); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 237, 132); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 211, 125); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("kalkulator.vhd", 325, 143); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 2, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source Node Properties..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// [GUI Memory]: 75 MB (+4461kb) [00:02:34]
+// Elapsed time: 22 seconds
+selectCodeEditor("kalkulator.vhd", 15, 244); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 62, 247); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("kalkulator.vhd", 100, 249); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 48, 243); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 16, 243); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 103, 247); // cd (w, ch)
+// [GUI Memory]: 79 MB (+60kb) [00:03:27]
+// Elapsed time: 40 seconds
+selectCodeEditor("kalkulator.vhd", 121, 260); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 1, 262); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("kalkulator.vhd", 67, 261); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 67, 261); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 24, 280); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 6, 249); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("kalkulator.vhd", 240, 195); // cd (w, ch)
+// [GUI Memory]: 83 MB (+140kb) [00:04:53]
+// Elapsed time: 38 seconds
+selectCodeEditor("kalkulator.vhd", 151, 149); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 144, 161); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("kalkulator.vhd", 219, 252); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// Tcl Command: 'file mkdir C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/constrs_1'
+// B (ch): Create Constraints File: addNotify
+// Tcl Message: file mkdir C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/constrs_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 42 MB. Current time: 4/21/19 5:26:41 PM CEST
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "kalkulator"); // X (C, B)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (B)
+dismissDialog("Create Constraints File"); // B (ch)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 14 seconds
+// Tcl Command: 'file mkdir C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/constrs_1/new'
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: file mkdir C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/constrs_1/new 
+// Tcl Message: close [ open C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/constrs_1/new/kalkulator.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// bv (ch):  Add Constraint  : addNotify
+// Tcl Message: add_files -fileset constrs_1 C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/constrs_1/new/kalkulator.xdc 
+dismissDialog("Add Constraint"); // bv (ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5); // B (D, ch)
+// [Engine Memory]: 678 MB (+11862kb) [00:06:00]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, kalkulator.xdc]", 7, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, kalkulator.xdc]", 7, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("kalkulator.xdc", 367, 131); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.xdc", 'v'); // cd (w, ch)
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("kalkulator.vhd", 209, 278); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 165, 271); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("kalkulator.vhd", 82, 354); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 253, 50); // cd (w, ch)
+// [GUI Memory]: 87 MB (+403kb) [00:12:09]
+// [GUI Memory]: 93 MB (+1520kb) [00:25:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 44 MB. Current time: 4/21/19 5:56:41 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 40 MB. Current time: 4/21/19 6:26:42 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 39 MB. Current time: 4/21/19 8:27:47 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 40 MB. Current time: 4/21/19 8:57:48 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 40 MB. Current time: 4/21/19 9:27:48 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14481 seconds
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 1); // k (j, ch)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display(Behavioral) (display.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display(Behavioral) (display.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("display.vhd", 61, 215); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("display.vhd", 13, 130); // cd (w, ch)
+selectCodeEditor("display.vhd", 220, 168); // cd (w, ch)
+selectCodeEditor("display.vhd", 3, 40); // cd (w, ch)
+selectCodeEditor("display.vhd", 206, 44); // cd (w, ch)
+typeControlKey((HResource) null, "display.vhd", 'c'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, keypad(Behavioral) (keypad.vhd)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, keypad(Behavioral) (keypad.vhd)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, state_machine(Behavioral) (state_machine.vhd)]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+selectCodeEditor("state_machine.vhd", 225, 419); // cd (w, ch)
+typeControlKey((HResource) null, "state_machine.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("keypad.vhd", 230, 423); // cd (w, ch)
+typeControlKey((HResource) null, "keypad.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 364, 111); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 1); // k (j, ch)
+selectCodeEditor("display.vhd", 153, 39); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// Elapsed time: 84 seconds
+selectCodeEditor("kalkulator.vhd", 327, 296); // cd (w, ch)
+// Elapsed time: 91 seconds
+selectCodeEditor("kalkulator.vhd", 205, 344); // cd (w, ch)
+// Elapsed time: 107 seconds
+selectCodeEditor("kalkulator.vhd", 240, 433); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 222, 400); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("kalkulator.vhd", 216, 383); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 277, 494); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 219, 445); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 134, 458); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectCodeEditor("kalkulator.vhd", 250, 371); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 245, 438); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("kalkulator.vhd", 313, 417); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 82, 450); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 505, 519); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 134, 476, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_UNINDENT_SELECTION, "Unindent Selection"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("kalkulator.vhd", 309, 527); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 114, 263); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 114, 263, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("kalkulator.vhd", 120, 374); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 120, 374, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("kalkulator.vhd", 329, 463); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("kalkulator.vhd", 139, 490); // cd (w, ch)
+// Elapsed time: 64 seconds
+selectCodeEditor("kalkulator.vhd", 332, 490); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 321, 471); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 3, 507); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 5, 520); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 65, 344); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 65, 344, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("kalkulator.vhd", 57, 436); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 57, 436, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("kalkulator.vhd", 127, 352); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 127, 352, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("kalkulator.vhd", 119, 433); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 119, 433, false, false, false, false, true); // cd (w, ch) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display(Behavioral) (display.vhd)]", 2, false); // B (D, ch)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+// Elapsed time: 97 seconds
+selectCodeEditor("state_machine.vhd", 624, 46); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 17, 95); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("state_machine.vhd", 393, 128); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 165, 111); // cd (w, ch)
+// Elapsed time: 57 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectCodeEditor("state_machine.vhd", 260, 116); // cd (w, ch)
+// Elapsed time: 68 seconds
+selectCodeEditor("state_machine.vhd", 182, 110); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 182, 110, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("state_machine.vhd", 180, 127); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("state_machine.vhd", 112, 110); // cd (w, ch)
+// Elapsed time: 69 seconds
+selectCodeEditor("state_machine.vhd", 514, 114); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("state_machine.vhd", 364, 122); // cd (w, ch)
+// Elapsed time: 574 seconds
+selectCodeEditor("state_machine.vhd", 367, 136); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("state_machine.vhd", 370, 165); // cd (w, ch)
+// Elapsed time: 53 seconds
+selectCodeEditor("state_machine.vhd", 161, 127); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 194, 150); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 491, 108); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 459, 155); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 120, 141); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 178, 179); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("state_machine.vhd", 251, 208); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 312, 197); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 194, 220); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 194, 220); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 235, 87); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 298, 63); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/21/19 9:57:49 PM CEST
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("state_machine.vhd", 186, 88); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("state_machine.vhd", 365, 259); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectCodeEditor("state_machine.vhd", 271, 250); // cd (w, ch)
+typeControlKey((HResource) null, "state_machine.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 240, 96); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectCodeEditor("kalkulator.vhd", 247, 247); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 62, 230); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("kalkulator.vhd", 242, 247); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 254, 227); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 1, 245); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 45, 215); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 45, 215, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("kalkulator.vhd", 18, 436); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 18, 436, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("kalkulator.vhd", 42, 417); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 42, 417, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("kalkulator.vhd", 1, 210); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 0, 244); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 201, 211); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 5, 263); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 2, 281); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 2, 297); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 374, 169); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 408, 391); // cd (w, ch)
+// Elapsed time: 37 seconds
+selectCodeEditor("kalkulator.vhd", 229, 244); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("kalkulator.vhd", 96, 276); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 300, 464); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 300, 464, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("kalkulator.vhd", 398, 485); // cd (w, ch)
+// Elapsed time: 66 seconds
+selectCodeEditor("kalkulator.vhd", 525, 396); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectCodeEditor("keypad.vhd", 18, 96); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 56, 90); // cd (w, ch)
+// Elapsed time: 28 seconds
+selectCodeEditor("keypad.vhd", 50, 107); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 116, 181); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 155, 64); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 158, 76); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectCodeEditor("display.vhd", 30, 98); // cd (w, ch)
+selectCodeEditor("display.vhd", 62, 96); // cd (w, ch)
+selectCodeEditor("display.vhd", 160, 77); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectCodeEditor("display.vhd", 66, 94); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectCodeEditor("keypad.vhd", 227, 133); // cd (w, ch)
+typeControlKey((HResource) null, "keypad.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectCodeEditor("display.vhd", 107, 112); // cd (w, ch)
+typeControlKey((HResource) null, "display.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("display.vhd", 23, 127); // cd (w, ch)
+selectCodeEditor("display.vhd", 250, 128); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("keypad.vhd", 205, 171); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("keypad.vhd", 138, 149); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 41 seconds
+selectCodeEditor("keypad.vhd", 138, 133); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 134, 147); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 143, 167); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 153, 187); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 150, 174); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 136, 157); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 137, 143); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 119, 175); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 116, 147); // cd (w, ch)
+// Elapsed time: 57 seconds
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, display.vhd]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, display.vhd]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // B (D, ch)
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+selectCodeEditor("display.vhd", 537, 119); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+// Elapsed time: 115 seconds
+selectCodeEditor("keypad.vhd", 155, 135); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 82, 232); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 79, 159); // cd (w, ch)
+// Elapsed time: 52 seconds
+selectCodeEditor("keypad.vhd", 422, 159); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 213, 206); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 235, 192); // cd (w, ch)
+typeControlKey((HResource) null, "keypad.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 266, 161); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 210, 151); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 224, 165); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 395, 197); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 126, 175); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 168, 208); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectCodeEditor("keypad.vhd", 414, 200); // cd (w, ch)
+typeControlKey((HResource) null, "keypad.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectCodeEditor("kalkulator.vhd", 256, 278); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 22, 278); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 0, 313); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 0, 347); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 59, 263); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 48, 283); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 53, 318); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 52, 351); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 165, 310); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 166, 278); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 167, 263); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 338, 401); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 398, 335); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 400, 503); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 4, 501); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 484, 504); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("kalkulator.vhd", 425, 417); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectCodeEditor("display.vhd", 187, 149); // cd (w, ch)
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectCodeEditor("kalkulator.vhd", 378, 182); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 245, 170); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectCodeEditor("keypad.vhd", 281, 133); // cd (w, ch)
+typeControlKey((HResource) null, "keypad.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 116, 161); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 434, 149); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectCodeEditor("kalkulator.vhd", 388, 334); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 294, 369); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 433, 369); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 392, 351); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 99 MB (+1321kb) [04:54:05]
+// Elapsed time: 30 seconds
+selectCodeEditor("kalkulator.vhd", 342, 213); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 385, 180); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+typeControlKey((HResource) null, "display.vhd", 'v'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectCodeEditor("state_machine.vhd", 270, 252); // cd (w, ch)
+typeControlKey((HResource) null, "state_machine.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 277, 192); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectCodeEditor("display.vhd", 122, 195); // cd (w, ch)
+typeControlKey((HResource) null, "display.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("display.vhd", 226, 195); // cd (w, ch)
+selectCodeEditor("display.vhd", 226, 195, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("display.vhd", 173, 213); // cd (w, ch)
+selectCodeEditor("display.vhd", 173, 213, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("display.vhd", 238, 235); // cd (w, ch)
+selectCodeEditor("display.vhd", 238, 235, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("display.vhd", 192, 244); // cd (w, ch)
+selectCodeEditor("display.vhd", 192, 244, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("display.vhd", 290, 263); // cd (w, ch)
+selectCodeEditor("display.vhd", 290, 263); // cd (w, ch)
+selectCodeEditor("display.vhd", 273, 246); // cd (w, ch)
+typeControlKey((HResource) null, "display.vhd", 'c'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 261, 351); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 58, 328); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 7, 344); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 6, 383); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 8, 422); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 6, 433); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 5, 451); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 10, 465); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 422, 507); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 387, 467); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 394, 313); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 15, 449); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 26, 466); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 681, 471); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("kalkulator.vhd", 417, 368); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 515, 358); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 322, 472); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 322, 472); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 451, 459); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 451, 449); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 426, 315); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 401, 115); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 315, 298); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 86, 127); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 20 seconds
+selectCodeEditor("kalkulator.vhd", 387, 195); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("kalkulator.vhd", 597, 175); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("kalkulator.vhd", 436, 82); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 447, 59); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 427, 78); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 443, 115); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 443, 115); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 409, 128); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 409, 128, false, true, false, false, false); // cd (w, ch) - Control Key
+selectCodeEditor("kalkulator.vhd", 514, 123); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 514, 123); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("kalkulator.vhd", 387, 469); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 318, 435); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 381, 465); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 61, 60); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 61, 60, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 379, 531); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("kalkulator.vhd", 610, 494); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectCodeEditor("display.vhd", 442, 111); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+selectCodeEditor("kalkulator.vhd", 443, 58); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 746, 172); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 380, 302); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 403, 323); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 375, 299); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("kalkulator.vhd", 397, 382); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("kalkulator.vhd", 565, 435); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectCodeEditor("state_machine.vhd", 270, 150); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("state_machine.vhd", 254, 157); // cd (w, ch)
+typeControlKey((HResource) null, "state_machine.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 251, 152); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 471, 345); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 440, 359); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 376, 384); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 503, 131); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("kalkulator.vhd", 578, 96); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 374, 399); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("kalkulator.vhd", 491, 435); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 444, 451); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("kalkulator.vhd", 481, 395); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("kalkulator.vhd", 603, 399); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("kalkulator.vhd", 376, 367); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 539, 342); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 473, 361); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 573, 301); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 84 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("state_machine.vhd", 171, 177); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 308, 142); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 535, 151); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 485, 364); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectCodeEditor("state_machine.vhd", 162, 159); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 162, 159, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("state_machine.vhd", 162, 159); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 272, 137); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 475, 403); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 303, 128); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 655, 277); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 603, 440); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 481, 451); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("kalkulator.vhd", 483, 290); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 417, 313); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 274, 244); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 419, 196); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 443, 211); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/21/19 10:27:49 PM CEST
+selectCodeEditor("kalkulator.vhd", 499, 226); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 447, 245); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 524, 168); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("display.vhd", 229, 192); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("display.vhd", 466, 175); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 102 seconds
+selectCodeEditor("display.vhd", 237, 195); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("display.vhd", 365, 255); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 30 seconds
+selectCodeEditor("kalkulator.vhd", 499, 263); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("kalkulator.vhd", 510, 314); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 109 seconds
+selectCodeEditor("kalkulator.vhd", 438, 413); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("kalkulator.vhd", 439, 417); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 566, 419); // cd (w, ch)
+// Elapsed time: 71 seconds
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 530, 511); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 263 seconds
+selectCodeEditor("kalkulator.vhd", 351, 177); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("kalkulator.vhd", 360, 417); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("kalkulator.vhd", 631, 483); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 290, 212); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 446, 212); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("kalkulator.vhd", 291, 127); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("kalkulator.vhd", 295, 179); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 407, 107); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectCodeEditor("state_machine.vhd", 153, 164); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 218, 211); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("keypad.vhd", 150, 213); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("display.vhd", 231, 197); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 180 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/21/19 10:57:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 41 MB. Current time: 4/21/19 11:27:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/21/19 11:57:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/22/19 12:27:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 43 MB. Current time: 4/22/19 12:57:50 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/22/19 1:27:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/22/19 1:57:50 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/22/19 2:27:51 AM CEST
+// Elapsed time: 13672 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+// Elapsed time: 57 seconds
+selectCodeEditor("state_machine.vhd", 425, 15); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectCodeEditor("keypad.vhd", 275, 339); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 191, 432); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 189, 346); // cd (w, ch)
+// Elapsed time: 46 seconds
+selectCodeEditor("keypad.vhd", 49, 417); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 34, 426); // cd (w, ch)
+typeControlKey((HResource) null, "keypad.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("keypad.vhd", 70, 134); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 219, 223); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 306, 212); // cd (w, ch)
+// Elapsed time: 50 seconds
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aH, ch)
+selectCodeEditor("keypad.vhd", 443, 304); // cd (w, ch)
+selectComboBox("FindAndReplaceDialog.ch_Find what:", "key_hex", -1); // JComboBox (ch, FindAndReplaceDialog)
+// Elapsed time: 12 seconds
+selectComboBox("FindAndReplaceDialog.ch_Replace with:", "pressed_key", -1); // JComboBox (ch, FindAndReplaceDialog)
+selectButton("FindAndReplaceDialog.ch_Find", "Find"); // JButton (ch, FindAndReplaceDialog)
+selectCodeEditor("keypad.vhd", 443, 281); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 443, 281); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 302, 69); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectCodeEditor("keypad.vhd", 318, 293); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 336, 147); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 291, 88); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 295, 279); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), STATE_MACHINE1 : state_machine(Behavioral) (state_machine.vhd)]", 2, false); // B (D, ch)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ci, ch)
+// S (ch): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // cj (Q, S)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (S)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/state_machine.vhd] 
+dismissDialog("Set Type"); // S (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), KEYPAD1 : keypad(Behavioral) (keypad.vhd)]", 3, false); // B (D, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ci, ch)
+// S (ch): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // cj (Q, S)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (S)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/keypad.vhd] 
+dismissDialog("Set Type"); // S (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), DISPLAY1 : display(Behavioral) (display.vhd)]", 4, false); // B (D, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ci, ch)
+// S (ch): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // cj (Q, S)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (S)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/display.vhd] 
+dismissDialog("Set Type"); // S (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 1, true); // B (D, ch) - Node
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ci, ch)
+// S (ch): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // cj (Q, S)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (S)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/kalkulator.vhd] 
+dismissDialog("Set Type"); // S (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("keypad.vhd", 397, 179); // cd (w, ch)
+selectCodeEditor("keypad.vhd", 43, 503); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+// Elapsed time: 117 seconds
+selectCodeEditor("display.vhd", 370, 162); // cd (w, ch)
+typeControlKey((HResource) null, "display.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("display.vhd", 146, 198); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.vhd", 3); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("display.vhd", 418, 191); // cd (w, ch)
+typeControlKey((HResource) null, "display.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("display.vhd", 210, 168); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("kalkulator.vhd", 510, 391); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 59 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectCodeEditor("state_machine.vhd", 512, 175); // cd (w, ch)
+selectCodeEditor("state_machine.vhd", 317, 124); // cd (w, ch)
+typeControlKey((HResource) null, "state_machine.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 404, 38); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("kalkulator.vhd", 441, 157); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("kalkulator.vhd", 354, 193); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("kalkulator.vhd", 675, 225); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 572, 212); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 359, 330); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 411, 379); // cd (w, ch)
+typeControlKey((HResource) null, "kalkulator.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 503, 355); // cd (w, ch)
+selectCodeEditor("kalkulator.vhd", 403, 414); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("kalkulator.vhd", 598, 329); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kalkulator.vhd", 0); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 43 MB. Current time: 4/22/19 12:33:06 PM CEST
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 12000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 13000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 43 MB. Current time: 4/22/19 1:03:06 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 43 MB. Current time: 4/22/19 1:33:06 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 42 MB. Current time: 4/22/19 2:41:13 PM CEST

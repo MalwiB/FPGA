@@ -1,0 +1,73 @@
+Kalkulator
+----------
+
+Proszê o napisanie kodu w VHDL, który bêdzie mia³ funkcjonalnoœæ kalkulatora.
+
+Operacje mno¿enia, dodawania, odejmowania i dzielenia bêd¹ wykonywane tylko na liczbach jednocyfrowych.
+
+W top entity powinny znajdowaæ siê tylko instancje komponentów i po³¹czenia miêdzy nimi:
+
+Komponenty:
+
+ 1. zawiera maszynê stanów, która po wciœniêciu przycisku cyfry na klawiaturze :
+
+	- zapamiêtuje tê cyfrê i wyœwietla j¹ (przesy³a do komponentu nr 3)
+	- czeka na wciœniêcie liter A(dodawania), B(odejmowanie), C(mno¿enie), D(dzielenie) - i wyœwietla odpowiednie litery (komp. nr 3)
+	- czeka na wciœniêcie kolejnej cyfry i wyœwietliæ j¹ (komp. nr 3)
+	- wypisaæ wynik operacji na wyœwietlaczu (komp. nr 3)
+	
+	W razie jakiejkolwiek pomy³ki powinniœmy przejœæ do stanu pierwszego maszyny, gdzie wyœwietlane bêdzie F na wyœwietlaczu LED
+
+2. Komponent obs³uguj¹cy klawiaturê - sygnalizuj¹cy do maszyny stanów wciœniêcia przycisku jak i przes³anie, który przycisk zosta³ wciœniêty
+
+3. Komponent t³umacz¹c znaki przes³ane z komp.1 tak aby je wyœwietliæ na wyœwietlaczu LED
+
+
+
+
+
+
+
+
+
+
+
+
+-----------
+
+
+
+
+1 - result to led
+Jak przedstawiæ wynik na obu wyœwietlaczach?
+
+example1
+--------
+np. 3 * 4   12
+
+12 = 	1  2
+
+12 % 10 = 2
+12 % 2 = 10 	10 / 10 = 1
+
+
+
+example2
+--------
+calkowita pojemnosc vectora: 2^8 = 254
+2^4 = 16
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+

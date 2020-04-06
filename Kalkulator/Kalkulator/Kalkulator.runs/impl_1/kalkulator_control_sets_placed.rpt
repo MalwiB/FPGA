@@ -1,0 +1,87 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1_AR70908 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Fri May 17 10:58:58 2019
+| Host         : DESKTOP-I5G3QUH running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file kalkulator_control_sets_placed.rpt
+| Design       : kalkulator
+| Device       : xc7z010
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    49 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      4 |            4 |
+|      5 |            1 |
+|      6 |            1 |
+|      7 |            1 |
+|      8 |            2 |
+|     10 |            1 |
+|     15 |            1 |
+|    16+ |            3 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              42 |           16 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              32 |            8 |
+| Yes          | No                    | No                     |              37 |           15 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              56 |           16 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------------------+-----------------------------------------------+------------------+----------------+
+|  Clock Signal  |                   Enable Signal                   |                Set/Reset Signal               | Slice Load Count | Bel Load Count |
++----------------+---------------------------------------------------+-----------------------------------------------+------------------+----------------+
+|  CLK_IBUF_BUFG | DISPLAY1/clear                                    |                                               |                1 |              1 |
+|  CLK_IBUF_BUFG | KEYPAD1/pressed_key[3]_i_1_n_0                    | KEYPAD1/init_flag                             |                1 |              4 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/led_tmp_calc[3]_i_1_n_0            |                                               |                3 |              4 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/led_tmp_digit1[3]_i_1_n_0          |                                               |                2 |              4 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/led_tmp_digit2[3]_i_1_n_0          |                                               |                3 |              4 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/current_result[5]_i_2_n_0          | STATE_MACHINE1/current_result[5]_i_1_n_0      |                3 |              5 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/led_tmp_result_two_leds[5]_i_1_n_0 |                                               |                1 |              6 |
+|  CLK_IBUF_BUFG | DISPLAY1/clear                                    | DISPLAY1/LED[7]_i_1_n_0                       |                1 |              7 |
+|  CLK_IBUF_BUFG | KEYPAD1/KEY_COL[3]_i_1_n_0                        | RESET_IBUF                                    |                2 |              8 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/led_tmp_result_one_led[7]_i_1_n_0  |                                               |                2 |              8 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/right_LED_result                   |                                               |                3 |             10 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/time_for_operation_0               | STATE_MACHINE1/time_for_operation[31]_i_1_n_0 |                4 |             15 |
+|  CLK_IBUF_BUFG | STATE_MACHINE1/time_for_operation_0               | STATE_MACHINE1/time_for_operation[21]_i_1_n_0 |                5 |             17 |
+|  CLK_IBUF_BUFG |                                                   | DISPLAY1/clear                                |                8 |             32 |
+|  CLK_IBUF_BUFG |                                                   |                                               |               16 |             42 |
++----------------+---------------------------------------------------+-----------------------------------------------+------------------+----------------+
+
+

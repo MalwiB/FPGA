@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2018.1_AR70908 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun  5 15:05:30 2018
+# Process ID: 13572
+# Current directory: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15780 C:\Users\Malwi\Dropbox\PROGR\fpga\state_machine\state_machine\state_machine_local_project.xpr
+# Log file: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/vivado.log
+# Journal file: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Malwi/Dropbox/studia-semestry/VI SEMESTR/FPGA/PROGRAMY/2018/state_machine/state_machine' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 787.223 ; gain = 130.609
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Tue Jun  5 15:08:10 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Tue Jun  5 15:09:35 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 59 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1_AR70908
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.196 . Memory (MB): peak = 1629.246 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.196 . Memory (MB): peak = 1629.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:41 ; elapsed = 00:00:38 . Memory (MB): peak = 1704.371 ; gain = 880.934
+create_project state_machine_components C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1738.793 ; gain = 10.535
+set_property target_language VHDL [current_project]
+file mkdir C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new
+close [ open C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd w ]
+add_files C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd
+file delete -force C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd
+close [ open C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd w ]
+add_files C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd
+set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/keypad.vhd]
+close [ open C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/display.vhd w ]
+add_files C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/display.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/counter.vhd w ]
+add_files C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/counter.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/state_machine.vhd w ]
+add_files C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/state_machine.vhd
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/counter.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/display.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine_components/state_machine_components.srcs/sources_1/new/state_machine.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+current_project state_machine_local_project
+current_project state_machine_components
+current_project state_machine_local_project
+current_project state_machine_components
+current_project state_machine_local_project
+current_project state_machine_components
+current_project state_machine_local_project
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Wed Jun  6 14:55:27 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.runs/synth_1/runme.log
+[Wed Jun  6 14:55:27 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.runs/impl_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1811.258 ; gain = 0.000
+current_project state_machine_components
+current_project state_machine_local_project
+current_project state_machine_components
+current_project state_machine_local_project
+current_project: Time (s): cpu = 00:00:00 ; elapsed = 02:12:31 . Memory (MB): peak = 1811.258 ; gain = 0.000
+current_project state_machine_components
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  6 21:31:45 2018...

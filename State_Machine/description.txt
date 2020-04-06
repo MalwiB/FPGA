@@ -1,0 +1,19 @@
+Projekt powinien byæ oparty o maszynê stanów, która w stanie:
+
+A - wyœwietla na obu wyœwietlaczach licznik, który siê zwiêksza od 0 to 99, licznik ten powinien siê zatrzymaæ po wciœniêciu '0' na klawiaturze i ruszyæ kiedy ktoœ wciœnie 9. Do tego stanu mo¿na przejœæ po wciœniêciu A na klawiaturze z dowolnego innego stanu 
+
+B - W tym stanie na jednej czêœci powinna byæ wyœwietlana kolejna litera imienia i nazwiska danego studenta (co oko³o 0.5 s) zaœ na drugiej licznik zgodny z iloœci¹ wyœwietlonych liter. Do tego stanu mo¿na przejœæ po wciœniêciu B na klawiaturze z dowolnego innego stanu 
+
+C - w tym stanie zapalane s¹ kolejne elementy wyœwietlacza LCD (A,B,C...G równoczeœnie dla obu czêœci wyœwietlacza LCD) co 0.25 sekundy  Do tego stanu mo¿na przejœæ tylko ze stanu B po wciœniêciu C na klawiaturze.
+
+ 
+
+Proszê równie¿ o umieszczenie poszczególnych czêœci kodu w odpowiednich komponentach:
+
+- obs³uga klawiatury
+
+- obs³uga wyœwietlacza LED (dekodowanie)
+
+- licznik
+
+itp. 

@@ -1,0 +1,83 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1_AR70908 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Wed Jun  6 14:59:48 2018
+| Host         : DESKTOP-I5G3QUH running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file FSM_control_sets_placed.rpt
+| Design       : FSM
+| Device       : xc7z010
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    30 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            1 |
+|      8 |            5 |
+|      9 |            3 |
+|     11 |            1 |
+|    16+ |            5 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              11 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              32 |            8 |
+| Yes          | No                    | No                     |              39 |           11 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             144 |           41 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------+------------------------------+------------------+----------------+
+|  Clock Signal  |        Enable Signal        |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++----------------+-----------------------------+------------------------------+------------------+----------------+
+|  CLK_IBUF_BUFG | key_hex[3]_i_1_n_0          |                              |                1 |              4 |
+|  CLK_IBUF_BUFG | KEY_COL[3]_i_1_n_0          | RESET_IBUF                   |                6 |              8 |
+|  CLK_IBUF_BUFG | counter_0_99_sig10          | counter_0_99_sig1[7]_i_1_n_0 |                3 |              8 |
+|  CLK_IBUF_BUFG | counter_0_99_sig20          | counter_0_99_sig10           |                2 |              8 |
+|  CLK_IBUF_BUFG | lcd_fsm_A1                  |                              |                3 |              8 |
+|  CLK_IBUF_BUFG | segments_display[7]_i_2_n_0 | segments_display[7]_i_1_n_0  |                2 |              8 |
+|  CLK_IBUF_BUFG | lcd_fsm_A0                  |                              |                2 |              9 |
+|  CLK_IBUF_BUFG | lcd_fsm_B0                  |                              |                2 |              9 |
+|  CLK_IBUF_BUFG | lcd_fsm_C0                  |                              |                3 |              9 |
+|  CLK_IBUF_BUFG |                             |                              |                6 |             11 |
+|  CLK_IBUF_BUFG | delay_state_B0              | current_letter0              |                4 |             16 |
+|  CLK_IBUF_BUFG |                             | clear                        |                8 |             32 |
+|  CLK_IBUF_BUFG | delay_state_C0              | delay_state_C[0]_i_1_n_0     |                8 |             32 |
+|  CLK_IBUF_BUFG | lcd_fsm_A0                  | delay_state_A0               |                8 |             32 |
+|  CLK_IBUF_BUFG | lcd_fsm_B0                  | delay_state_B0               |                8 |             32 |
++----------------+-----------------------------+------------------------------+------------------+----------------+
+
+

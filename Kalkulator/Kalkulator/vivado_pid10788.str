@@ -1,0 +1,116 @@
+/*
+
+Xilinx Vivado v2018.1_AR70908 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 10788
+License: Customer
+
+Current time: 	Tue May 14 07:01:02 CEST 2019
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 170 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Malwi
+User home directory: C:/Users/Malwi
+User working directory: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/patches/AR70908_vivado_2018_1_preliminary_rev5/vivado/data;C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/Malwi/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/Malwi/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/Malwi/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/vivado.log
+Vivado journal file location: 	C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/vivado.jou
+Engine tmp dir: 	C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/.Xil/Vivado-10788-DESKTOP-I5G3QUH
+
+GUI allocated memory:	149 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 502 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 15 MB (+12879kb) [00:00:06]
+// [Engine Memory]: 300 MB (+162822kb) [00:00:06]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 28 MB (+13432kb) [00:00:15]
+// TclEventType: START_GUI
+// [GUI Memory]: 59 MB (+31160kb) [00:00:47]
+// [Engine Memory]: 500 MB (+193920kb) [00:00:47]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Malwi\Dropbox\PROGR\fpga\Kalkulator\Kalkulator\Kalkulator.xpr. Version: Vivado v2018.1_AR70908 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 509 MB. GUI used memory: 34 MB. Current time: 5/14/19 7:01:05 AM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// [Engine Memory]: 542 MB (+17938kb) [00:01:02]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 33 MB. Current time: 5/14/19 7:01:19 AM CEST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 615 MB (+48064kb) [00:01:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 649 MB. GUI used memory: 39 MB. Current time: 5/14/19 7:02:02 AM CEST
+// [Engine Memory]: 649 MB (+3865kb) [00:01:48]
+// Project name: Kalkulator; location: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator; part: xc7z010clg400-1
+// WARNING: updateGUI() is taking  1158 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:57 . Memory (MB): peak = 788.953 ; gain = 113.523 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd)]", 1); // B (D, ch)
+// PAPropertyPanels.initPanels (state_machine.vhd) elapsed time: 0.7s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), STATE_MACHINE1 : state_machine(Behavioral) (state_machine.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), STATE_MACHINE1 : state_machine(Behavioral) (state_machine.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 65 MB (+3155kb) [00:02:07]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), KEYPAD1 : keypad(Behavioral) (keypad.vhd)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), KEYPAD1 : keypad(Behavioral) (keypad.vhd)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), DISPLAY1 : display(Behavioral) (display.vhd)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kalkulator(Behavioral) (kalkulator.vhd), DISPLAY1 : display(Behavioral) (display.vhd)]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 69 MB (+411kb) [00:02:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 676 MB. GUI used memory: 42 MB. Current time: 5/14/19 7:02:30 AM CEST
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad.vhd", 2); // k (j, ch)
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "state_machine.vhd", 1); // k (j, ch)
+// [GUI Memory]: 74 MB (+1496kb) [00:02:27]
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+// [GUI Memory]: 79 MB (+1035kb) [00:03:57]
+// [GUI Memory]: 83 MB (+297kb) [00:12:27]
+// [GUI Memory]: 89 MB (+1688kb) [00:25:58]

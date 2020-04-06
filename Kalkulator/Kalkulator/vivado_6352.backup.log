@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2018.1_AR70908 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed May  8 17:40:05 2019
+# Process ID: 6352
+# Current directory: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1412 C:\Users\Malwi\Dropbox\PROGR\fpga\Kalkulator\Kalkulator\Kalkulator.xpr
+# Log file: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/vivado.log
+# Journal file: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:53 . Memory (MB): peak = 849.770 ; gain = 112.879
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu May  9 19:36:25 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+[Thu May  9 19:36:25 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu May  9 19:42:14 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu May  9 19:43:47 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu May  9 19:46:09 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu May  9 19:50:35 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu May  9 19:51:56 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu May  9 19:53:50 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu May  9 20:06:29 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+[Thu May  9 20:06:29 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu May  9 20:09:45 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+[Thu May  9 20:09:45 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu May  9 20:24:47 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+[Thu May  9 20:24:47 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu May  9 20:29:20 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 909.836 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A42D03A
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 1533.453 ; gain = 623.617
+set_property PROGRAM.FILE {C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/kalkulator.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/kalkulator.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A42D03A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A42D03A
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/kalkulator.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A42D03A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A42D03A
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A42D03A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A42D03A
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/kalkulator.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/kalkulator.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/kalkulator.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu May  9 21:01:04 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+[Thu May  9 21:01:04 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1
+
+launch_runs impl_1 -jobs 2
+[Thu May  9 21:05:29 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/synth_1/runme.log
+[Thu May  9 21:05:29 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu May  9 21:09:06 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/Malwi/Dropbox/PROGR/fpga/Kalkulator/Kalkulator/Kalkulator.runs/impl_1/kalkulator.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  9 21:31:38 2019...

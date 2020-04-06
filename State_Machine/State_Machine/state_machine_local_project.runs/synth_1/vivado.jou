@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1_AR70908 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun  6 14:55:48 2018
+# Process ID: 15564
+# Current directory: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.runs/synth_1
+# Command line: vivado.exe -log FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl
+# Log file: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.runs/synth_1/FSM.vds
+# Journal file: C:/Users/Malwi/Dropbox/PROGR/fpga/state_machine/state_machine/state_machine_local_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FSM.tcl -notrace
